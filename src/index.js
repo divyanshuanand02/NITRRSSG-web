@@ -8,7 +8,7 @@ $('.navTrigger').click(function () {
 
 });
 
-var content = 'NIT ROURKELA Robosoccer Student Research Group';
+var content = "NIT ROURKELA RoboSoccer Students' Group";
 
 var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
 
