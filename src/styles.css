@@ -503,7 +503,8 @@ p{
 }
 
 .description {
-    margin-top: 10%;
+    
+    text-align: left;
 }
 
 
