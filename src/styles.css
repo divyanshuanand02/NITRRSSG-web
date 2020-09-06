@@ -447,6 +447,7 @@ p{
 
 .team{
     margin-top: 5rem;
+    margin-bottom: 3rem;
     padding: 4rem 0;
 }
 .subsystem, .dark-head{
@@ -469,7 +470,7 @@ p{
 
     width: 300px;
     height: 300px;
-    margin: 2rem 0;
+    margin: 3rem 0;
 
 
     perspective: 500px;
@@ -536,6 +537,33 @@ p{
 .back {
     /* background-color: grey; */
     transform: rotateY(180deg);
+}
+
+
+.fas{
+    margin: 2rem 0;
+}
+
+.contact{
+    margin-bottom: 2rem;
+}
+
+.contact a{
+    line-height: 0.8;
+    color:black;
+    
+}
+
+
+
+.contact a:active{
+    color:black;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: black;
+    text-decoration:none ;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
