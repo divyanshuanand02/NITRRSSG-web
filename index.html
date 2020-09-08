@@ -7,24 +7,22 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" href="media/logo/favicon.ico">
 
-<!-- BOOTSTRAP -->
+   <!-- BOOTSTRAP -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <!-- AOS CDN -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-	
+	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/ee299b1b93.js" crossorigin="anonymous"></script>
-
+    <!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="src/styles.css">
 
 </head>
-
-
 <body>
 
+	<!--////////////////////////////Navbar/////////////////////////////////////////////////// -->
 	<nav class="nav">
 		<div class="logo">
 			<a href="#"><img src="/media/logo/favicon-96x96.png" alt="logo"></a>
@@ -32,9 +30,10 @@
 		<div id="mainListDiv" class="main_list">
 			<ul class="navlinks ">
 				<li><a href="#about">About</a></li>
-				<li><a href="#">Teams</a></li>
+				<li><a href="#subsystems">Subsystems</a></li>
+				<li><a href="#team">Team</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a href="https://www.robocup.org/">Robocup</a></li>
+				<li><a href="https://www.robocup.org/" target='_blank'>Robocup</a></li>
 
 			</ul>
 		</div>
@@ -60,27 +59,26 @@
 		<div>
 			<p class="lead">
 				<img data-aos="fade-left" src="media/pngegg.png" alt="">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Sed risus ultricies tristique nulla aliquet enim. Turpis egestas integer eget
-				aliquet. Tincidunt arcu non sodales neque. Arcu dui vivamus arcu felis bibendum. Amet porttitor eget
-				dolor morbi non arcu risus quis varius. Purus faucibus ornare suspendisse sed nisi lacus sed viverra
-				tellus. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Facilisis volutpat est velit
-				egestas dui id ornare arcu odio. Tristique senectus et netus et malesuada fames ac turpis egestas. Eget
-				felis eget nunc lobortis.
+				Our plan includes extensive research in the domain of Artificial Intelligence and Robotics 
+				through participation in global level competitions like RoboCup where we will put our research 
+				into testing and incorporate ideas from other teams who may have an edge in these particular domains. 
+			</p>
+			<p class="lead">
+				Our team has already qualified for  <b>3D Simulation league</b> in Robocup, which was scheduled to take place  
+				in June 2020 in Borduex, France which is now postponed to June 2021.
+				We have aligned ourselves with the ultimate aim of RoboCup Federation which is making a team
+				 of autonomous agents by 2050 which will be able to compete against the team of 11 humans in 
+				 the soccer sport.
 			</p>
 		</div>
-		<!-- <div class='left'>
-		<p class="lead">Dignissim diam quis enim lobortis scelerisque fermentum dui. Egestas diam in arcu cursus euismod quis viverra. Etiam erat velit scelerisque in dictum non consectetur a. Adipiscing bibendum est ultricies integer quis auctor. In nisl nisi scelerisque eu ultrices vitae auctor. Nullam eget felis eget nunc lobortis mattis. Nibh venenatis cras sed felis eget velit aliquet sagittis. Diam sit amet nisl suscipit adipiscing bibendum. Ridiculus mus mauris vitae ultricies leo integer malesuada. Ornare arcu dui vivamus arcu felis bibendum ut tristique et. Egestas pretium aenean pharetra magna. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Dui accumsan sit amet nulla facilisi morbi tempus. Quisque egestas diam in arcu cursus. Morbi tempus iaculis urna id volutpat lacus laoreet non. Dictum sit amet justo donec enim diam vulputate. Eu tincidunt tortor aliquam nulla facilisi cras fermentum.</p>
- 
-	</div> -->
 
 	</div>
 
-	<!-- ////////////////////////////////////////Teams Section////////////////////////////////////////// -->
-	<div class="dark">
+	<!-- ////////////////////////////////////////Subsystem Section////////////////////////////////////////// -->
+	<div id="subsystems" class="dark">
 		<div class="team container ">
 
-			<h1 class="dark-head text-center">Team</h1>
+			<h1 class="dark-head text-center">Subsystems</h1>
 
 			
 			<div class=" row text-center">
@@ -88,52 +86,45 @@
 				<div data-aos="fade-up" class="software col-md-6 col-sm-12  ">
 					<h3 class="subsystem">Software Subsystem</h3>
 					<p class="lead">
-						t is a long established fact that a reader will be distracted by the readable content of a page
-						when
-						looking at its
-						layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-						letters, as
-						
+						This subsystem handles the decision making, path planning, 
+						coordination with piles of dry and efficient code to make such an autonomous 
+						system that will be ready to achieve targets on its own.
 					</p>
 
 				</div>
 				<div data-aos="fade-up" class=" electronics  col-md-6 col-sm-12">
 					<h3 class="subsystem">Electronics Subsystem</h3>
 					<p class="lead">
-						Just for test
-						
-						
+						Circuits and everything related to circuits is handled by this subsystem. 
+						Power management, control signals are just a few of the many things, 
+						this subsystem deals with. Works closely with Mechanical and Software subsystems.
 					</p>
 				</div>
 				<div data-aos="fade-up" class=" mech col-md-6 col-sm-12">
 					<h3 class="subsystem">Mechanical Subsystem</h3>
 					<p class="lead">
-						t is a long established fact that a reader will be distracted by the readable content of a page
-						when
-						looking at its
-						layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-						letters, as
+						The wheels, the chassis, every physical structure except the circuits 
+						are beautifully crafted by this subsystem. 
+						A lot of efforts are made by this team to make the design as robust as possible. 
+						They make possible the journey from simulation tests to actual physical structures.
 						
 					</p>
 				</div>
 				<div data-aos="fade-up" class=" pr  col-md-6 col-sm-12">
 					<h3 class="subsystem" >PR Subsystem</h3>
 					<p class="lead ">
-						t is a long established fact that a reader will be distracted by the readable content of a page
-						when
-						looking at its
-						layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-						letters, as
-						
+						This subsystem is responsible for reaching out to people who share a common 
+						interest in the work we do or to the people who can promote our work and offer a 
+						helping hand to us to continue doing wonders
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- //////////////////////////////Mentor/Members////////////////////////////////////////////////////// -->
+	<!-- //////////////////////////////Teams////////////////////////////////////////////////////// -->
 
-	<div class="member container-fluid text-center ">
+	<div id="team" class="member container-fluid text-center ">
 
 		<div class="mentor">
 			<h1 head>Mentors</h1>
@@ -277,14 +268,14 @@
 			<div data-aos="fade-up" class="member-card col-lg-3 col-md-4 col-sm-6 col-xs-12  ">
 				<div class="content ">
 					<div class="front">
-						<div><img src="Image/SHIVANSHU SAHOO.jpg" alt="" class="round"></div>
+						<div><img src="Image/Shivanshu_Sahoo.jpeg" alt="" class="round"></div>
 						<div class="name-front ">Shivanshu Sahoo</div>
 						<div class="subsystem-name">Software Subsystem</div>
 					</div>
 					<div class="back ">
 						<div class="row">
 							<div class="name-back col-7">Shivanshu Sahoo</div>
-							<div class=" col-5"><img src="Image/SHIVANSHU SAHOO.jpg" class="round-back" alt=""></div>
+							<div class=" col-5"><img src="Image/Shivanshu_Sahoo.jpeg" class="round-back" alt=""></div>
 						</div>
 						<div class="description">
 							An undergraduate student from department of Electronics and Communication engineering. Shivanshu is an
@@ -382,18 +373,18 @@
 			<div data-aos="fade-up" class="member-card col-lg-3 col-md-4 col-sm-6 col-xs-12  ">
 				<div class="content ">
 					<div class="front">
-						<div><img src="Image/Sweta Dash.jpg" alt="" class="round"></div>
+						<div><img src="Image/Sweta_Dash.jpeg" alt="" class="round"></div>
 						<div class="name-front ">Sweta Dash</div>
 						<div class="subsystem-name">Software Subsystem</div>
 					</div>
 					<div class="back ">
 						<div class="row">
 							<div class="name-back col-7">Sweta Dash</div>
-							<div class=" col-5"><img src="Image/Sweta Dash.jpg" class="round-back" alt=""></div>
+							<div class=" col-5"><img src="Image/Sweta_Dash.jpeg" class="round-back" alt=""></div>
 						</div>
 						<div class="description">
 							An electrical engineering undergrad, she is a full stack web developer and works mainly in software subsystem. She
-							believes that " When you want something from all your heart the whole universe conspires in letting you achieve that"
+							has experience in C++, ROS,OpenCV and path planning algorithms.
 						</div>
 					</div>
 				</div>
@@ -662,11 +653,32 @@
 		</div>
 	</div>
 	</div>
+<!-- ////////////////////////////////////////Coming Up Section/////////////////////////////////////////////////////// -->
+
+<div class="coming-up">
+	<h1 class="landing-h1">Coming Up Soon!</h1>
+	<p class="landing-p">We are planning to extend our participation to RoboCup Small size League.
+		 Stay tuned for updates!</p>
+  </div>
+  
+
+<!-- <div id="coming-up" class="container coming-up" data-aos="zoom-in">
+	<h1 class="text-center">Coming Up!</h1>
+	<div>
+		<p class="lead">
+			<img data-aos="fade-right" src="media/forward.png" alt="">
+			Our plan includes extensive research in the domain of Artificial Intelligence and Robotics 
+			through participation in global level competitions like RoboCup where we will put our research 
+			into testing and incorporate ideas from other teams who may have an edge in these particular domains. 
+
+		</p>
+	</div>
+</div> -->
 
 	<!-- ////////////////////////////////////////Contact section////////////////////////////////////////// -->
 
 
-<div id="contacts" class="contact">
+<div id="contact" class="contact">
 	<h1 class="text-center">Contact Us</h1>
 	<div class="container-fluid">
 		<div class=" row ">
@@ -678,11 +690,12 @@
 				</a>
 			</div>
 			<div data-aos="flip-left" class="col-md-5"> <a href="mailto:nitrrssg@gmail.com" target="_blank"><i class=" fas far fa-4x fa-envelope  "> </i>
-				<p>nitrrssg@gmail.com</p></a>
+				<p> Mail us at nitrrssg@gmail.com</p></a>
 			</div>
 		</div>
 	</div>
 </div>
+ 
 
 	<!-- //////////////////////////////////////////Footer//////////////////////////////////////////////////// -->
 
@@ -691,10 +704,11 @@
 			<div class="row">
 				<div class="footer-info col-sm-12 col-md-6">
 					<h6>NITRRSSG</h6>
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-						tempor
-						incididunt ut labore et dolore magna aliqua. Sed risus ultricies tristique nulla aliquet enim.
-						Turpis egestas integer eget aliquet.</p>
+					<p class="text-justify">
+						We are the Robosoccer student's research group of NIT Rourkela.
+						Our plan includes extensive research in the domain of Artificial Intelligence and Robotics 
+				        through participation in global level competitions like RoboCup
+					</p>
 					<p><a href="mailto:nitrrssg@gmail.com" target="_blank"><i class="fa fa-envelope mail"></i>Mail us to
 							get in touch</a></p>
 				</div>
