@@ -534,8 +534,9 @@ p{
 }
 
 .back {
-    /* background-color: grey; */
+    background-color: white;
     transform: rotateY(180deg);
+    
 }
 
 
