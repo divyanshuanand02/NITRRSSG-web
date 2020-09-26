@@ -620,6 +620,37 @@ p{
     margin-top: 10px;
     font-size: 1.3rem;
   }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.updates {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #26272b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    
+  }
+  .updates .up{
+      margin-left:1rem;
+  }
+
+  .updates-h1 {
+    font-size: 2.3rem;
+    padding: 2rem;
+  }
+  
+  .updates-h1,
+  .updates-p {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .updates-p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+  }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
