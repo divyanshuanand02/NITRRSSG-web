@@ -576,6 +576,9 @@ p{
     
 }
 
+.text-center{
+    margin: 2rem auto;
+}
 
 
 .contact a:active{
@@ -622,7 +625,7 @@ p{
   }
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .updates {
-    height: 70vh;
+
     align-items: center;
     justify-content: center;
     background-color: #26272b;
@@ -636,7 +639,7 @@ p{
   }
 
   .updates-h1 {
-    font-size: 2.3rem;
+    /* font-size: 2.3rem; */
     padding: 2rem;
   }
   
@@ -649,7 +652,7 @@ p{
   
   .updates-p {
     margin-top: 10px;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
   }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -728,7 +731,7 @@ p{
 }
 
 .mail{
-  padding: 5px;
+  margin-right: 5px;
 }
 .footer-info{
   text-align: left;
